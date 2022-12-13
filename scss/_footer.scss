@@ -27,6 +27,7 @@ footer {
     bottom: 30px;
     right: 30px;
     .bubble__img {
+        @include from__bottom(2s);
         height: 3rem;
         width: 3rem;
     }
