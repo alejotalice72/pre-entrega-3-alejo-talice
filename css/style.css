@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar__img {
+  height: 3rem;
+  width: 8rem;
+}
+
+.nav-link:hover {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #C5BC8E;
+}
+
+footer {
+  background-color: #36393B;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer .footer__icons__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+footer .footer__icons__link:hover {
+  color: #C5BC8E;
+}
+footer .footer__text__title {
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+footer .footer__text__title__j {
+  font-size: 2.5rem;
+  color: #C5BC8E;
+}
+
+.bubble {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.bubble .bubble__img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/pexels-suzy-hazelwood-1560093.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.hero .hero__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.us {
+  width: 100%;
+  background-color: #E2E2D2;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.us img {
+  border-radius: 0px;
+  height: 25rem;
+}
+.us h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.us i {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
