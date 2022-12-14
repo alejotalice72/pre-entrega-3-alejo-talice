@@ -197,4 +197,35 @@ footer .footer__text__title__j {
   background-color: #ccc7b1;
 }
 
+.contact {
+  margin-top: 4rem;
+  background-color: #F4F0C6;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg__form {
+  animation: from-bottom 1.5s ease;
+  background-color: #e9e18e;
+  padding: 4rem;
+  border-radius: 60px 5px 60px 5px;
+  box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 81px -18px rgba(0, 0, 0, 0.75);
+}
+
+.qaf {
+  background-color: #ccc7b1;
+  min-height: 80vh;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+.qaf .qaf__bg {
+  background-color: #C5BC8E;
+}
+.qaf .qaf__bg__text {
+  background-color: #E2E2D2;
+}
+
 /*# sourceMappingURL=style.css.map */
